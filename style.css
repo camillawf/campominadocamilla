@@ -1,0 +1,30 @@
+body{
+  width:410px;
+  height:150px;
+  border:3px solid black;
+  font-family:Times;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:100px;
+}
+a{
+  display:block;
+  float:left;
+  width:100px;
+  line-heigth:100px;
+  border:1px solid white;
+  font-size:25px;
+  text-align:center;
+  text-decoration:none;
+  background: pink;
+  color:pink;
+}
+a:hover{
+  border:1px solid yellow;
+}
+a:active,a:visited{
+  color:white;
+}
+br{
+  clear:left;
+}
